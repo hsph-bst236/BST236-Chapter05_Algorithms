@@ -15,7 +15,8 @@ class Solutions:
         # Divide step
 
         # Conquer step
-
+        # Even exponent: A^n = (A^(n/2))^2 
+        
         # Odd exponent: A^n = (A^(n/2))^2 * A
 
     def climbStairs(self, n: int) -> int:
