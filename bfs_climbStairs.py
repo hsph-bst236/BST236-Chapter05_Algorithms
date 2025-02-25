@@ -5,9 +5,9 @@ def bfs_climbStairs(n: int, choices: list[int]):
     # Initialize queue
     result = 0
     queue = deque([(0, result)]) 
+    # Initialize visited set
+    visited = []
     while queue:
-        # Initialize visited set
-        visited = []
         # Get the current state
         current_state, current_result = queue.popleft() 
 
